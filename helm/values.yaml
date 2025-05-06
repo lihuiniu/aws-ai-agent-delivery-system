@@ -1,0 +1,11 @@
+
+replicaCount: 2
+
+image:
+  repository: ai-agent
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8000
